@@ -57,6 +57,7 @@ ThinPad T440s M.2 WIFI port is A+E keyed
 - BCM94360CS2 (Recommend)
 - DW1560 (BCM94352Z)
 - DW1830
+
 The USB WIFI 
 - COMFAST CF-811AC 650
 ## Installation
