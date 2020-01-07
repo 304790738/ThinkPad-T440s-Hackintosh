@@ -3,7 +3,7 @@ Hackintosh MacOS , the branch number is the version of MacOS,
 
  e.g :
 
-branch      MacOS version
+branch  ---> MacOS version
 
 10.15.2 ---> 10.15.2
 
