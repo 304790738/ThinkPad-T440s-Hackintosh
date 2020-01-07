@@ -1,5 +1,8 @@
 # MacOS ThinkPad T440s
-Hackintosh MacOS 10.15.x
+Hackintosh MacOS , the branch number is the version of MacOS,
+ e.g :
+branch      MacOS version
+10.15.2 ---> 10.15.2
 
 ## Pre-Installation
 
