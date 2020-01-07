@@ -1,5 +1,5 @@
 # MacOS ThinkPad T440s
-Hackintosh MacOS Mojave 10.14.x and 10.15.x
+Hackintosh MacOS 10.15.x
 
 ## Pre-Installation
 
@@ -16,14 +16,15 @@ Hackintosh MacOS Mojave 10.14.x and 10.15.x
 - `Anti-Theft -> Current Setting`: **Disabled**;
 - `Anti-Theft -> Computrace -> Current Setting`: **Disabled**
 - `Secure Boot -> Secure Boot`: **Disabled**
-- `UEFI/Legacy Boot`: **UEFI Only**
+- `UEFI/Legacy Boot`: **Both**
+- `UEFI/Legacy Priority`: **UEFI First**
 - `CSM Support`: **Yes**
 
 ### 3. Know your hardware
 
 |Compenent|Reference|
 |---|---|
-|CPU|Intel Core i5-4300U vPro|
+|CPU|Intel Core i7-4600U|
 |RAM|DDR3L 12GB Bus 1600MHz|
 |GFX|Intel HD Graphics 4400|
 |Sound|Intel HD Audio (Realtek ALC292)|
@@ -56,7 +57,8 @@ ThinPad T440s M.2 WIFI port is A+E keyed
 - BCM94360CS2 (Recommend)
 - DW1560 (BCM94352Z)
 - DW1830
-
+The USB WIFI 
+- COMFAST CF-811AC 650
 ## Installation
 
 ....
@@ -81,6 +83,8 @@ ThinPad T440s M.2 WIFI port is A+E keyed
 - WhateverGreen.kext
 - USBPorts.kext
 - EFICheckDisabler.kext
+- IntelMausiEthernet.kext
+- USBInjectAll.kext
 
 ### 3. Patched
 - Copy patch to /ACPI/patched/
