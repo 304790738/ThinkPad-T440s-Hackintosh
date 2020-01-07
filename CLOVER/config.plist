@@ -340,10 +340,10 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
 		<key>Arguments</key>
 		<string>dart=0 -cdfon -igfxnohdmi</string>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -363,20 +363,20 @@
 				<data>BgAmCg==</data>
 				<key>device-id</key>
 				<data>EgQAAA==</data>
-				<key>framebuffer-cursormem</key>
-				<data>AACQAA==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
 				<key>framebuffer-con1-alldata</key>
 				<data>AQUSAAAEAACHAAAA</data>
-				<key>framebuffer-con2-enable</key>
+				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-alldata</key>
 				<data>AgQSABAAAACHAAAA</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-cursormem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
 			</dict>
 			<key>PciRoot(0)/Pci(0x03,0)</key>
 			<dict>
@@ -401,12 +401,22 @@
 			<key>Entries</key>
 			<array>
 				<dict>
+					<key>Disabled</key>
+					<false/>
 					<key>Hidden</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>NoCaches</key>
 					<false/>
 					<key>Type</key>
 					<string>OSXRecovery</string>
 				</dict>
 				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
 					<key>Title</key>
 					<string>Windows</string>
 					<key>Type</key>
@@ -435,7 +445,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>ThinkPad</string>
+		<string>Bootcamp2k</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>

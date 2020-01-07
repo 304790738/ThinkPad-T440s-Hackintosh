@@ -1,5 +1,5 @@
 # MacOS ThinkPad T440s
-Hackintosh MacOS 10.15.x
+Hackintosh MacOS 10.15.2
 
 ## Pre-Installation
 
